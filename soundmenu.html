@@ -2,8 +2,12 @@
 <html>
   <head>
     <title>Faxberatungsstelle Gießen</title>
+
+	<style>
+	.telephoneKey {font-size: 40px;}
+	</style>
   </head>
-  <body>
+  <body  style="background-color:yellow;">
 
     <script>
       function play0() {
@@ -56,27 +60,27 @@
       }
       
     </script>
-<table >
+<table style="margin-left:auto;margin-right:auto;">
 <tr>
-  <td>  <input type="button" value="1" onclick="play1()"> </td>
-  <td>  <input type="button" value="2" onclick="play2()"> </td>
-  <td>  <input type="button" value="3" onclick="play3()"> </td>
+  <td>  <input type="button" class="telephoneKey" value="1" onclick="play1()"> </td>
+  <td>  <input type="button" class="telephoneKey" value="2" onclick="play2()"> </td>
+  <td>  <input type="button" class="telephoneKey" value="3" onclick="play3()"> </td>
 </tr>
 <tr>
-  <td>    <input type="button" value="4" onclick="play4()"> </td>
-  <td>    <input type="button" value="5" onclick="play5()"> </td>
-  <td>    <input type="button" value="6" onclick="play6()"> </td>
+  <td>    <input type="button" class="telephoneKey" value="4" onclick="play4()"> </td>
+  <td>    <input type="button" class="telephoneKey" value="5" onclick="play5()"> </td>
+  <td>    <input type="button" class="telephoneKey" value="6" onclick="play6()"> </td>
 </tr>
 <tr>
-  <td>    <input type="button" value="7" onclick="play7()"> </td>
-  <td>    <input type="button" value="8" onclick="play8()"> </td>
-  <td>    <input type="button" value="9" onclick="play9()"> </td>
+  <td>    <input type="button" class="telephoneKey" value="7" onclick="play7()"> </td>
+  <td>    <input type="button" class="telephoneKey" value="8" onclick="play8()"> </td>
+  <td>    <input type="button" class="telephoneKey" value="9" onclick="play9()"> </td>
 </tr>
 <tr>
 
-  <td>    <input type="button" value="*" onclick="playRaute()"> </td>
-  <td>  <input type="button" value="0" onclick="play0()"> </td>
-  <td>    <input type="button" value="#" onclick="playStern()"> </td>
+  <td>    <input type="button" class="telephoneKey" value="*" onclick="playRaute()"> </td>
+  <td>  <input type="button" class="telephoneKey" value="0" onclick="play0()"> </td>
+  <td>    <input type="button" class="telephoneKey" value="#" onclick="playStern()"> </td>
 </table>
     <audio id="audio0" src="soundsBerautungsstelle/00rapjeah.mp3"></audio>
     <audio id="audio1" src="soundsBerautungsstelle/01Kontakt.mp3"></audio>
